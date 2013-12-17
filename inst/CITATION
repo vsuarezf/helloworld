@@ -1,0 +1,12 @@
+CIT.TITLE <- "helloworld: a demo package for R coding style"
+CIT.AUTHOR<- "Reinhard Simon"
+CIT.YEAR <- version$year
+CIT.TEXT <- paste(CIT.AUTHOR, " (", CIT.YEAR, "). ", CIT.TITLE, sep="")
+
+citEntry(
+    entry = "Manual",
+    title = CIT.TITLE,
+    author= CIT.AUTHOR,
+    year = CIT.YEAR,
+    textVersion = CIT.TEXT
+)

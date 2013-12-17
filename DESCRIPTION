@@ -1,0 +1,14 @@
+Package: helloworld
+Type: Package
+Title: What the package does (short line)
+Version: 0.99.0
+Date: 2013-12-17
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: GPL-2
+Suggests:
+    knitr
+VignetteBuilder: knitr
+Depends:
+    testthat
